@@ -1,0 +1,310 @@
+﻿
+
+.ModelDiv {
+ 
+margin:0 auto;
+width:85%;
+margin-top:10px;
+height:    500px;
+border-radius:8px;
+
+
+
+}
+body {
+
+    font: normal .80em arial, sans-serif;
+    
+   background-size:100% 100%;
+  margin-left:auto;
+  margin-top:0px;
+    height:100%;
+}
+#divNews {
+     width:100%;
+      height:100%;
+      border-radius:6px;
+      float:right;
+    
+      border:1px solid white;
+      background: transparent url(../Images/000_25.png) repeat;
+}
+@charset "utf-8";
+
+h5 {
+	color: #6B6B6B;
+}
+a:hover {
+	color: #FF7300;
+}
+h1 {
+	font-size: 36px;
+	color: #FEFEFE;
+}
+h2 {
+	font-size: 24px;
+	text-shadow: -1px 0 1px  #fff;
+	color: #FEFEFE;
+}
+h3 {
+	font-size: 18px;
+	color: #FEFEFE;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: dashed;
+	border-top-color: #FEFEFE;
+	border-bottom-color: #FEFEFE;
+	border-bottom-width: 1px;
+	
+
+}
+h4 {
+	font-size: 16px;
+	color: #424242;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+
+#modelDivBottom {
+    width:960px; 
+    margin:0 auto; 
+    background:url(../Images/bk_shadow_slider.png) 0 0 no-repeat; 
+    height:60px;
+}
+.page {
+	
+  
+
+
+
+
+margin:0 auto;
+width:100%;
+
+text-shadow: 0 0 0;
+  
+ 
+}
+.shadows {
+	text-shadow: -0.5px 0.5px 0.5px #555555;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 40px;
+
+
+}
+
+
+.containerWrap {
+	display: block;
+	width: 100%;
+	margin-top: 0px;
+	position: relative;
+	
+    
+}
+.header {
+	margin: 0 auto;
+	width:100%;
+ 
+  
+}
+header{
+    margin-top:0px;
+       height:150px;
+text-align:center;
+text-transform:uppercase
+    
+}
+header h1{
+list-style:none;
+line-height:normal;
+margin:0;
+padding:0}
+header h1 a{
+    margin:0 auto;
+font-family:'ChunkFive Regular', Arial, Helvetica, sans-serif;
+font-size:75px;
+-moz-font:60px;
+text-shadow:0 3px 3px #555;
+-webkit-transition:all 200ms linear;
+-moz-transition:all 200ms linear;
+-o-transition:all 200ms linear;
+transition:all 200ms linear;
+-webkit-transform:translateZ(0);
+-moz-transform:translateZ(0);
+-o-transform:translateZ(0);
+transform:translateZ(0)}
+
+header h1 a:hover{
+font-size:100px;
+-webkit-transform:scale(1.1+) translateZ(0);
+-moz-transform:scale(1.1+) translateZ(0);
+-o-transform:scale(1.1) translateZ(0);
+transform:scale(1.1) translateZ(0)}
+header p{
+margin-top:-15px;
+font-size:30px}
+
+
+
+
+#nav {
+    margin:0 auto;
+}
+#nav {
+	
+	line-height: 100%;
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	background: #8b8b8b;
+
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#a9a9a9', endColorstr='#7a7a7a'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#a9a9a9), to(#7a7a7a));
+	background: -moz-linear-gradient(top,  #a9a9a9,  #7a7a7a);
+	border: solid 1px #6d6d6d;
+	width: 950px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+    padding-left:15px;
+}
+#nav li {
+	margin: 0 5px;
+	padding: 0 0 8px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+
+#nav a {
+	font-weight: bold;
+	color: #e7e5e5;
+	text-decoration: none;
+	display: block;
+	padding:  8px 20px;
+	margin: 0;
+    -moz-border-radius: 1.6em;
+	-webkit-border-radius: 1.6em;
+	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#nav .current a, #nav li:hover > a {
+	background: #d1d1d1; 
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#a1a1a1'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#a1a1a1)); 
+	background: -moz-linear-gradient(top,  #ebebeb,  #a1a1a1); 
+
+	color: #444;
+	border-top: solid 1px #f8f8f8;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+}
+
+#nav ul li:hover a, #nav li:hover li a {
+	background: none;
+	border: none;
+	color: #666;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#nav ul a:hover {
+	background: #0399d4 !important; 
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#04acec', endColorstr='#0186ba'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#3D1C01), to(#F28304)) !important; 
+	background: -moz-linear-gradient(top,  #3D1C01,  #F28304) !important; 
+
+	color: #fff !important;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+#nav ul {
+	background: #ddd; 
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cfcfcf'); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cfcfcf)); 
+	background: -moz-linear-gradient(top,  #fff,  #cfcfcf); 
+
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 185px;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	border: solid 1px #b4b4b4;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+#nav li:hover > ul {
+	display: block;
+}
+#nav ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+#nav ul a {
+	font-weight: normal;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .9);
+}
+/* level 3+ list */
+#nav ul ul {
+	left: 181px;
+	top: -3px;
+}
+
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}}
+::-webkit-resizer { background-color: #666;}
+
+
+
+::-moz-scrollbar {
+    width: 12px;
+}
+
+::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-moz-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+.body .QBanner .QBannerContainer .center {
+float: left;
+width: 884px;
+height: 48px;
+
+background: transparent url(../Images/q_bg.png) ;
+
+}
